@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/6/25 19:20:46。
+     1>项目“C:\Users\陈博文\Documents\Visual Studio 2013\Projects\Project_Collision Ball\Project_Collision Ball\Project_Collision Ball.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /I"C:\SDL2\VC-SDL2\SDL2-2.0.4\include" /I"C:\SDL2\VC-SDL2\SDL2_ttf-2.0.14\include" /I"C:\SDL2\VC-SDL2\SDL2_image-2.0.1\include" /I"C:\SDL2\VC-SDL2\SDL2_mixer-2.0.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Draw.c Event.c bulb.c button.c
+         button.c
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\button.c(18): warning C4013: “btnW”未定义；假设外部返回 int
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\button.c(18): warning C4013: “btnH”未定义；假设外部返回 int
+         bulb.c
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\bulb.c(57): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         Event.c
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\event.c(101): warning C4013: “GetControlAt”未定义；假设外部返回 int
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\event.c(101): warning C4047: “=”:“void *”与“int”的间接级别不同
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\event.c(108): warning C4047: “=”:“void *”与“int”的间接级别不同
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\event.c(112): warning C4047: “=”:“void *”与“int”的间接级别不同
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\event.c(121): warning C4013: “insidebulb”未定义；假设外部返回 int
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\event.c(138): warning C4013: “Light_change”未定义；假设外部返回 int
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\event.c(241): warning C4013: “Renewboy”未定义；假设外部返回 int
+         Draw.c
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\draw.c(80): warning C4101: “dstRect”: 未引用的局部变量
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\draw.c(74): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\draw.c(74): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\draw.c(186): warning C4013: “btnW”未定义；假设外部返回 int
+     1>c:\users\陈博文\documents\visual studio 2013\projects\project_collision ball\project_collision ball\draw.c(186): warning C4013: “btnH”未定义；假设外部返回 int
+         正在生成代码...
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\陈博文\Documents\Visual Studio 2013\Projects\Project_Collision Ball\Debug\Project_Turn_off_the_light.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SDL2\VC-SDL2\SDL2-2.0.4\lib\x86" /LIBPATH:"C:\SDL2\VC-SDL2\SDL2_ttf-2.0.14\lib\x86" /LIBPATH:"C:\SDL2\VC-SDL2\SDL2_image-2.0.1\lib\x86" /LIBPATH:"C:\SDL2\VC-SDL2\SDL2_mixer-2.0.1\lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_mixer.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\陈博文\Documents\Visual Studio 2013\Projects\Project_Collision Ball\Debug\Project_Turn_off_the_light.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\陈博文\Documents\Visual Studio 2013\Projects\Project_Collision Ball\Debug\Project_Turn_off_the_light.lib" /MACHINE:X86 Debug\boy.obj
+         Debug\bulb.obj
+         Debug\button.obj
+         Debug\Draw.obj
+         Debug\Event.obj
+         Debug\LTexture.obj
+         Debug\main.obj
+         Debug\Util.obj
+         Project_Collision Ball.vcxproj -> C:\Users\陈博文\Documents\Visual Studio 2013\Projects\Project_Collision Ball\Debug\Project_Turn_off_the_light.exe
+     1>已完成生成项目“C:\Users\陈博文\Documents\Visual Studio 2013\Projects\Project_Collision Ball\Project_Collision Ball\Project_Collision Ball.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.43
